@@ -70,3 +70,5 @@ func _physics_process(delta):
 		velocity.z = move_toward(velocity.z, 0, current_speed)
 
 	move_and_slide()
+	
+	#Interact button code bellow
