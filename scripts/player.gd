@@ -4,7 +4,7 @@ extends CharacterBody3D
 @onready var standing_collisionshape = $standing_collisionshape
 @onready var crouching_collisionshape = $crouching_collisionshape
 @export var current_speed = 5.0
-@onready var ray_cast_3d = $RayCast3D
+@onready var ray_cast_3d = $CrouchingRay
 ###bea
 const walking_speed = 5.0
 const sprinting_speed = 7.0
@@ -71,4 +71,4 @@ func _physics_process(delta):
 
 	move_and_slide()
 	
-	#Interact button code bellow
+	
