@@ -70,7 +70,8 @@ metadata/_editor_floor_ = Vector3(0, 1, 0)
 
 [node name="Button" parent="stage" instance=ExtResource("5_xxp7l")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2.41693)
-prompt_message = "Interact"
+prompt_message = "[E] to Interact"
+prompt_action = "Interact"
 
 [node name="env" type="Node3D" parent="."]
 
